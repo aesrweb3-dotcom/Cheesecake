@@ -10,11 +10,11 @@ from datetime import datetime
 # ⚠️  IMPORTANT: Regenerate these keys at console.x.com ASAP
 # since they were shared publicly. Then update them here.
 # ============================================================
-API_KEY = "c5czcJOEeg5BED6fsl5hcReqf"
-API_KEY_SECRET = "x7dnhzwQ71wuVdJfiGaauWbflMq8MctkZR68q4g9zJ94HXQy91"
-ACCESS_TOKEN = "1867897633798311936-EHazsxRQ4SUGr4FYPsEO6mrfZMg0PS"
-ACCESS_TOKEN_SECRET = "5SnL9BTGHLf0zyYMv4kqiQo3lSs5cNCPYL1vB4tHasFkt"
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAEIP9gEAAAAA3XzdW8h6xzvtR5J0NgWwHAlnQ4M%3DQzeCb282nk66PaVFvEXRGotmBzZAq6tsmd2DTlpypIbbFSWrxe"
+API_KEY = os.environ.get("API_KEY")
+API_KEY_SECRET = os.environ.get("API_KEY_SECRET")
+ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN")
+ACCESS_TOKEN_SECRET = os.environ.get("ACCESS_TOKEN_SECRET")
+BEARER_TOKEN = os.environ.get("BEARER_TOKEN")
 
 # ============================================================
 # 365+ Cheesecake Quotes
